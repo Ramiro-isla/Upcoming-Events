@@ -1,4 +1,6 @@
 <script setup>
+import PopUpEditForm from './PopUpEditForm.vue';
+
 defineProps({
   available: {
     type: Boolean,
@@ -37,6 +39,16 @@ defineProps({
 <template>
   <div class="card mb" id="mainContainer">
     <div class="row g-0" id="childrenContainer">
+      <div class="col-md" id="containerCheckbox-active">
+        <div class="chekbox">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+        </div>
+      </div>
       <div class="col-md" id="imgContainer">
         <img :src="image" alt="Cometcon Image" />
       </div>
@@ -54,9 +66,7 @@ defineProps({
       <div class="col-sm-1" id="thirdColumn">
         <div class="card-body" id="btnmaxpeopleContainer">
           <div id="divBtnSign">
-            <button class="button">Sign up</button>
-            <button class="using-button" id="using-button-active">Using</button>
-            <span class="full" id="full-active">FULL</span>
+            <PopUpEditForm />
           </div>
           <div id="maxPeople">{{ signed_users }}/{{ max_users }}</div>
         </div>

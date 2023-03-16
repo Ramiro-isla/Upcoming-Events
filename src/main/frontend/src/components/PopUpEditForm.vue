@@ -1,10 +1,4 @@
 <script setup>
-function changeColor() {
-  let button = document.querySelector(".button");
-  if (button.className == "button") {
-    button.className = "button-click";
-  }
-}
 </script>
 <template>
   <button
