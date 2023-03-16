@@ -1,7 +1,7 @@
 <script setup>
-import Header from "../components/Header.vue";
-import SliderComponent from "../components/SliderComponent.vue";
-import EventComponent from "../components/EventComponent.vue";
+import AdminHeader from "../components/AdminHeader.vue";
+import SliderChecking from "../components/SliderChecking.vue";
+import AdminEventComponent from "../components/AdminEventComponent.vue";
 import { onBeforeMount } from "vue";
 import { useEventsStore } from "../stores/EventsStore";
 
@@ -11,10 +11,10 @@ onBeforeMount(async () => {
 });
 </script>
 <template>
-  <Header></Header>
-  <SliderComponent />
+  <AdminHeader />
+  <SliderChecking />
   <div v-for="event in store.Events" :key="event">
-    <EventComponent
+    <AdminEventComponent
       :available="event.available"
       :date="event.date"
       :description="event.description"
