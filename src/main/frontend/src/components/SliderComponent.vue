@@ -3,34 +3,34 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active d-flex justify-content-center" id="sideOne">
-      <img src="../assets/resources/talleresempleabilidad.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="...">
-      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="...">
-      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="...">
+      <img src="../assets/resources/talleresempleabilidad.svg" class="img-fluid d-block" alt="La imagen muestra el cartel oficial de los talleres de empleabilidad">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="La imagen muestra el cartel oficial de los talleres de empleabilidad">
+      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="Imagen de ejemplo de personas trabajando con un ordenador">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="La imagen muestra el cartel oficial de los talleres de empleabilidad">
+      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="Imagen de ejemplo de personas trabajando con un ordenador">
     </div>
     <div class="carousel-item d-flex justify-content-center" id="sideTwo">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="...">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="...">
-      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="...">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="La imagen muestra el cartel oficial de los talleres de empleabilidad">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="La imagen muestra el cartel oficial de los talleres de empleabilidad">
+      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="Imagen de ejemplo de personas trabajando con un ordenador">
+      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="La imagen muestra el cartel oficial de los talleres de empleabilidad">
     </div>
     <div class="carousel-item d-flex justify-content-center" id="sideThree">
-      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="...">
-      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="...">
-      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="...">
-      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="...">
-      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="...">
+      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="La imagen muestra el cartel oficial de los talleres de empleabilidad">
+      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="Imagen de ejemplo de personas trabajando con un ordenador">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/cometcon.svg" class="img-fluid d-block" alt="La imagen muestra el cartel de la CometCon 2023">
+      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="La imagen muestra el cartel oficial de los talleres de empleabilidad">
+      <img src="../assets/resources/talleresempleabilidad.svg" class="d-block" alt="La imagen muestra el cartel oficial de los talleres de empleabilidad">
+      <img src="../assets/resources/example.svg" class="img-fluid d-block" alt="Imagen de ejemplo de personas trabajando con un ordenador">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" id="btnPrev">
