@@ -1,6 +1,6 @@
 <script setup>
+import PopUpForm from "./PopUpForm.vue";
 import PopUpLogin from "./PopUpLogin.vue";
-import PopUpRegister from "./PopUpRegister.vue";
 </script>
 <template>
   <header>
@@ -19,13 +19,13 @@ import PopUpRegister from "./PopUpRegister.vue";
         data-bs-toggle="collapse"
         data-bs-target="#opciones"
       >
-        <span class="navbar-toggler-icon" id="pp"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse justify-content-end" id="opciones">
-        <div class="front-page-container" id="login-view">
-          <PopUpRegister/>
-          <PopUpLogin />
+        <div class="admin-view-container" id="admin-view">
+          <PopUpForm />
+          <p class="hi-user">Hi, AdminName</p>
         </div>
       </div>
     </div>

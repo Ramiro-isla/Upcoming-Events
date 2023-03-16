@@ -1,14 +1,14 @@
-<script>
-
-
-</script>
+<script></script>
 
 <template>
   <header>
     <nav class="navbar navbar-expand-md">
       <div class="container">
         <a>
-          <img src="../assets/upcomming-events-logo.png" alt="Upcoming Events Logo"/>
+          <img
+            src="../assets/upcomming-events-logo.png"
+            alt="Upcoming Events Logo"
+          />
         </a>
       </div>
       <button
@@ -16,24 +16,16 @@
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#opciones"
-      >
-        
-      </button>
+      ></button>
       <div class="container collapse navbar-collapse">
-        <button class="home">
-          Home
-        </button>
-        <button class="myevents">
-          My Events
-        </button>
-        <div class="hi m-4">
-          Hi, Username
-        </div>
+        <button class="home">Home</button>
+        <button class="myevents">My Events</button>
+        <div class="hi m-4">Hi, Username</div>
       </div>
     </nav>
   </header>
 </template>
 
 <style scoped>
-@import "../assets/css/NavBarComponent.css"
+@import "../assets/css/NavBarComponent.css";
 </style>

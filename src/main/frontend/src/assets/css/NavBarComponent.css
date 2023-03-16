@@ -82,10 +82,10 @@ header {
   border: 2px solid #eaeaea;
 }
 #user-view {
-  display: none;
+  /* display: none; */
 }
 #admin-view {
-  display: none;
+  /* display: none; */
 }
 @media (max-width: 320px) {
   .p-2 {
