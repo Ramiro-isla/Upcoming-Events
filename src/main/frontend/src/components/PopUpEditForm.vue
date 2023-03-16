@@ -5,7 +5,6 @@
 //     button.className = "button-click";
 //   }
 // }
-
 </script>
 <template>
   <button
@@ -42,7 +41,7 @@
         <div class="modal-body" id="formBody">
           <form class="row g-3">
             <div class="col-md-12">
-              <label for="inputTitle" class="form-label"> Title</label>
+              <label for="inputTitle" class="form-label"> Title </label>
               <input type="text" class="form-control" id="inputTitle" placeholder="title" />
             </div>
 
