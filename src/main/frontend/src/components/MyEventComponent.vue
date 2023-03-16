@@ -1,5 +1,6 @@
 <script setup>
-defineProps({
+import { useMyEventsStore } from "../stores/SignEventStore";
+const props = defineProps({
   available: {
     type: Boolean,
     default: null,
@@ -33,6 +34,7 @@ defineProps({
     default: null,
   },
 });
+
 </script>
 <template>
   <div class="card mb" id="mainContainer">
@@ -54,9 +56,7 @@ defineProps({
       <div class="col-sm-1" id="thirdColumn">
         <div class="card-body" id="btnmaxpeopleContainer">
           <div id="divBtnSign">
-            <button class="button">Sign up</button>
             <button class="using-button" id="using-button-active">Using</button>
-            <span class="full" id="full-active">FULL</span>
           </div>
           <div id="maxPeople">{{ signed_users }}/{{ max_users }}</div>
         </div>
