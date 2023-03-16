@@ -1,4 +1,6 @@
 <script setup>
+import PopUpEditForm from "../components/PopUpEditForm.vue"
+
 defineProps({
   available: {
     type: Boolean,
